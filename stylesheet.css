@@ -287,19 +287,20 @@ z-index: 500;
 
 .container-skillbar {
   width:100%;
-  padding-top:30px;
+  padding-top:20px;
   padding-right: 2%;
   padding-left: 2%;
   height:auto;
   overflow:none;
+  margin-bottom: auto;
 }
 .skillbar {
   position:relative;
-  display:block;
-  margin-bottom:15px;
-  width:100%;
+  display: block;
+  margin-bottom:10px;
+  width:90%;
   background:#efefef;
-  height:30px;
+  height:20px;
   border-radius:3px;
   -moz-border-radius:3px;
   -webkit-border-radius:3px;
@@ -336,8 +337,8 @@ z-index: 500;
   display:block;
   background:rgba(0, 0, 0, 0.15);
   padding:0 20px;
-  height:30px;
-  line-height:30px;
+  height:20px;
+  line-height:20px;
   -webkit-border-top-left-radius:3px;
   -webkit-border-bottom-left-radius:3px;
   -moz-border-radius-topleft:3px;
@@ -347,7 +348,7 @@ z-index: 500;
 }
 
 .skillbar-bar {
-  height:30px;
+  height:20px;
   width:0px;
   border-radius:3px;
   -moz-border-radius:3px;
@@ -359,8 +360,8 @@ z-index: 500;
   right:10px;
   top:0;
   font-size:11px;
-  height:30px;
-  line-height:30px;
+  height:20px;
+  line-height:15px;
   color:#ffffff;
   color:rgba(0, 0, 0, 0.5);
 }
@@ -682,7 +683,7 @@ border: 1px solid rgba(185, 74, 72, 0.3);
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 44.44%;
 }
 
 /* Clear floats after the columns */
@@ -691,6 +692,7 @@ border: 1px solid rgba(185, 74, 72, 0.3);
     display: table;
     clear: both;
 }
+
 
 /* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
 @media (max-width: 600px) {
