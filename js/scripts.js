@@ -119,6 +119,7 @@ $(document).ready(function() {
     $.fn.fullpage.moveTo(3);
   });
 
+
   // $(document).on('click', '#contact', function(){
   //   $.fn.fullpage.moveTo(4);
   // });
